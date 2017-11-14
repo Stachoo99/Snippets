@@ -1,0 +1,44 @@
+/*biblioteka font-awesome styluje swoje ikonki po klasie .fa, jezeli zlapiemy sam element "i" i bedziemy po nim stylowac, to klasa .fa nadpisze nasze style */
+
+i.fa {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    box-sizing: border-box;
+    border: 1px solid aqua;
+    background: aqua;
+    color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 100px;
+    transition: all .4s;
+}
+
+i.fa:hover {
+    color: aqua;
+    background: #FFF;
+}
+
+body a {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    box-sizing: border-box;
+    border: 1px solid aqua;
+    background: aqua;
+    color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 100px;
+    transition: all .4s;
+}
+
+body a .fa {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+body a:hover {
+    color: aqua;
+    background: #FFF;
+}

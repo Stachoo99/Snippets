@@ -1,0 +1,19 @@
+#name::placeholder {
+    color: green;
+}
+
+#email::placeholder {
+    color: magenta;
+}
+
+#submit {
+    background-color: limegreen;
+    text-decoration: none;
+    color: white;
+}
+
+#submit:hover {
+    background: #FFF;
+    color: #000;
+}
+
