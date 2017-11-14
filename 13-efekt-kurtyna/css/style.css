@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.to-bottom {
+    top: 0;
+    position: absolute;
+    height: 50vh;
+    background-color: red;
+    animation-name: bottom;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+.to-top {
+    top: 0;
+    position: absolute;
+    height: 50vh;
+    background-color: blue;
+    animation-name: top;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes bottom {
+    from {
+        top: -50vh
+    }
+}
