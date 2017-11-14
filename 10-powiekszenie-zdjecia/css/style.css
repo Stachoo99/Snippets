@@ -1,0 +1,17 @@
+#box {
+    width: 35%;
+    height: 400px;
+    overflow: hidden;
+    border: 10px solid black;
+}
+
+#box img {
+    transition: all 0.4s linear;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#box img:hover {
+    transform: scale(1.5);
+}
